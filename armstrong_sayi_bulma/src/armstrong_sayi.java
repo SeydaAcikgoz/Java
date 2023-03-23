@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class armstrong_sayi_bulma {
+public class armstrong_sayi{
 	public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Sayi Giriniz :");
