@@ -4,11 +4,9 @@ public class harshad_sayi {
 	/*
 	 * 7. Belirli bir tabanda rakamları toplamına tam bölünen sayılara Harshad
 	 * sayısı denir. Girilen sayının Harshad sayı olup olmadığını bulunuz.
-	 * 
-	 */
+	*/
 
 	public static void main(String[] args) {
-
 		Scanner input = new Scanner(System.in);
 		System.out.println("Sayiyi giriniz: ");
 		int sayi = input.nextInt();
