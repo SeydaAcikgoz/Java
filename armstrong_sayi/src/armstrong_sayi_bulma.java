@@ -27,7 +27,5 @@ public class armstrong_sayi_bulma {
         } else {
             System.out.println(number + " sayisi bir Armstrong sayisi degildir.");
         }
-
-
     }
 }
