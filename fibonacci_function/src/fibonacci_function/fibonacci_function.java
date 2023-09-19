@@ -3,7 +3,6 @@ package fibonacci_function;
 public class fibonacci_function {
 	public static void main(String args[]) {
 		int sayi = 11;
-
 		FibHesapla(sayi);
 	}
 
@@ -17,6 +16,5 @@ public class fibonacci_function {
 			n1 = n2;
 			n2 = n3;
 		}
-
 	}
 }
