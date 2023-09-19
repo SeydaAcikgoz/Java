@@ -7,5 +7,4 @@ public class fermat_sayi {
 			System.out.println(fermat);
 		}
 	}
-
 }
