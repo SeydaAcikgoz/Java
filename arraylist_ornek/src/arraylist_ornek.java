@@ -2,15 +2,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class arraylist_ornek {
-public static void main(String[] args) {
-		
-
+	public static void main(String[] args) {
 		ArrayList<Double> List=new ArrayList<Double>();
 		SayiListesiOlustur(List);
 		System.out.println();
 		Siralama(List);
 		
-        Scanner input=new Scanner(System.in);
+       		Scanner input=new Scanner(System.in);
 		
 		System.out.println("sayi giriniz:");
 		double sayi=input.nextDouble();
@@ -18,10 +16,9 @@ public static void main(String[] args) {
 		
 		System.out.println();
 		SayiEkle(List, sayi);
-		
 	}
+	
 	static void SayiListesiOlustur(ArrayList<Double> List){
-		
 		for(int i=0;i<10;i++)
 		{
 			List.add((Math.random()*100)+1);
@@ -49,15 +46,12 @@ public static void main(String[] args) {
 		   	{
 		   		if (List.get(j)<List.get(minidex))
 		   		 minidex=j;
-		    }
-			   
-			   yedek=List.get(i);
-			   List.set(i,List.get(minidex));
-			   List.set(minidex,yedek);
-	 } 
-		
-			   ListeyiYazdir(List);
-		
+		   	}   
+			yedek=List.get(i);
+			List.set(i,List.get(minidex));
+			List.set(minidex,yedek);
+	 	} 
+		ListeyiYazdir(List);
 	}
 	
 	static void SayiEkle(ArrayList<Double> List,double sayi){
